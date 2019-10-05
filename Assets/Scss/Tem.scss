@@ -1,0 +1,71 @@
+/*--------------------Variables-----------------------*/
+  $Main: #ffff;
+  $Sub-Header: #F1F4F5;
+  $Button-Color: #EF5F60;
+  $P-color: #8E8E8E;
+  $Footer: #2D2D30;
+  $Hover: #88D7C6;
+  $H-Color: #4D4D4D;
+  $Weight: 1500px;
+body{
+  background-color: $Main;
+  font-family: "Calibri";
+}
+.container{
+  width: $Weight;
+  margin: auto;
+}
+.clearfix{
+  clear: both;
+  float: none;
+}
+.Common {
+  color: $P-color;
+  font-size: 17px;
+}
+.Text_box1{
+  font-size: 25px;
+}
+/*--------------------/Variables-----------------------*/
+/*--------------------Header--------------------------*/
+
+header div.container {
+  section {
+    float: left;
+    padding-top: 45px;
+  }
+  nav{
+      float: right;
+      text-align: right;
+      padding-top: 45px;
+    ul li{
+      display: inline-block;
+      a{
+        text-decoration: none;
+        padding: 25px;
+        color: black;
+        font-size: 13px;
+        font-weight: bolder;
+        a:hover {
+          color: var(--Hover);
+          text-decoration: none;
+    }}
+        div.but{
+          background-color: $Button-Color;
+          position: relative;
+          width: 30px;
+          height: 30px;
+          margin-bottom: -8px;
+          float: right;
+          i.fa{
+            color: $Main;
+            font-size: 10px;
+            top: 5px;
+            right: 10px;
+            position: relative;
+        }
+  }
+       } }
+  }
+
+/*--------------------/Header--------------------------*/

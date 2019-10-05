@@ -1,0 +1,69 @@
+/*--------------------Variables-----------------------*/
+body {
+  background-color: #ffff;
+  font-family: "Calibri";
+}
+
+.container {
+  width: 1500px;
+  margin: auto;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+.Common {
+  color: #8E8E8E;
+  font-size: 17px;
+}
+
+.Text_box1 {
+  font-size: 25px;
+}
+
+/*--------------------/Variables-----------------------*/
+/*--------------------Header--------------------------*/
+header div.container section {
+  float: left;
+  padding-top: 45px;
+}
+header div.container nav {
+  float: right;
+  text-align: right;
+  padding-top: 45px;
+}
+header div.container nav ul li {
+  display: inline-block;
+}
+header div.container nav ul li a {
+  text-decoration: none;
+  padding: 25px;
+  color: black;
+  font-size: 13px;
+  font-weight: bolder;
+}
+header div.container nav ul li a a:hover {
+  color: var(--Hover);
+  text-decoration: none;
+}
+header div.container nav ul li div.but {
+  background-color: #EF5F60;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin-bottom: -8px;
+  float: right;
+}
+header div.container nav ul li div.but i.fa {
+  color: #ffff;
+  font-size: 10px;
+  top: 5px;
+  right: 10px;
+  position: relative;
+}
+
+/*--------------------/Header--------------------------*/
+
+/*# sourceMappingURL=Tem.css.map */
