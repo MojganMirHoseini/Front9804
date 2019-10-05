@@ -19,6 +19,10 @@ body {
   font-size: 17px;
 }
 
+.Dash {
+  color: #EF5F60;
+}
+
 .Text_box1 {
   font-size: 25px;
 }
@@ -86,5 +90,159 @@ div#Sub h6.Text_M {
 }
 
 /*--------------------/sub_Header----------------------*/
+/*-----------------------Sub2-------------------------*/
+div.Box1 {
+  position: relative;
+  top: 240px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+}
+div.Box1 h1.Mrg {
+  position: absolute;
+  margin: 0;
+  bottom: 10px;
+}
+div.Box1 button.btn {
+  background-color: #EF5F60;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+
+/*-----------------------/Sub2-------------------------*/
+/*------------------------Main------------------------*/
+div.Pic {
+  position: relative;
+  top: 240px;
+}
+div.Pic .con, div.Pic .con1, div.Pic .con2, div.Pic .con3, div.Pic .con4, div.Pic .con5, div.Pic .con6, div.Pic .con7, div.Pic .con8 {
+  display: inline-block;
+  position: relative;
+}
+div.Pic img {
+  width: 367px;
+  height: 367px;
+  display: inline-block;
+  padding-top: 10px;
+}
+div.Pic img.Pading {
+  padding: 10px 10px 0 10px;
+}
+div.Pic .overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #878787;
+  background: linear-gradient(140deg, #878787 0%, #171717 100%) no-repeat;
+  overflow: hidden;
+  width: 367px;
+  height: 0;
+  transition: 0.5s ease;
+}
+div.Pic .overlay1 .Circle {
+  position: relative;
+  border: 5px solid white;
+  border-radius: 50%;
+  margin: auto;
+  width: 210px;
+  height: 210px;
+}
+div.Pic .overlay1 .Circle .Img2 {
+  position: absolute;
+  margin-left: -5px;
+  margin-top: -5px;
+  padding: 10px;
+}
+div.Pic .overlay1 .Circle .Plus {
+  display: inline-block;
+  position: relative;
+  background-color: #87DCC9;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: 70px;
+  margin-left: 180px;
+}
+div.Pic .overlay1 .Circle .Plus i.fa {
+  margin-left: 13px;
+  margin-top: 12px;
+  font-size: 30px;
+}
+div.Pic .overlay1 .text {
+  color: white;
+  font-size: 23px;
+  position: absolute;
+  top: 235px;
+  left: 50%;
+  display: inline-block;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+div.Pic .overlay1 .Address {
+  position: absolute;
+  color: #87DCC9;
+  font-size: 20px;
+  margin-left: 110px;
+  margin-top: 50px;
+  opacity: 0.5;
+  text-decoration: none;
+}
+div.Pic .overlay1 .Butn {
+  position: absolute;
+  margin-top: 80px;
+  width: 250px;
+  height: 60px;
+  margin-left: 60Px;
+}
+div.Pic .overlay1 .Butn .Butn-Hover-L, div.Pic .overlay1 .Butn .Butn-Hover-R {
+  position: relative;
+  border: 3px solid white;
+  width: 125px;
+  height: 60px;
+  background-color: transparent;
+  color: white;
+}
+div.Pic .overlay1 .Butn .Butn-Hover-L {
+  float: left;
+}
+div.Pic .overlay1 .Butn .Butn-Hover-R {
+  border-left: none;
+  float: right;
+}
+div.Pic .con:hover .overlay1 {
+  height: 97.5%;
+}
+div.Pic .con1:hover .overlay1 {
+  height: 97.5%;
+}
+div.Pic .con2:hover .overlay1 {
+  height: 97.5%;
+}
+div.Pic .con3:hover .overlay1 {
+  height: 97.5%;
+}
+div.Pic .con4:hover .overlay1 {
+  height: 97.5%;
+}
+div.Pic .con5:hover .overlay1 {
+  height: 97.5%;
+}
+div.Pic .con6:hover .overlay1 {
+  height: 97.5%;
+}
+div.Pic .con7:hover .overlay1 {
+  height: 97.5%;
+}
+div.Pic .con8:hover .overlay1 {
+  height: 97.5%;
+}
+
+/*------------------------/Main------------------------*/
 
 /*# sourceMappingURL=Tem.css.map */

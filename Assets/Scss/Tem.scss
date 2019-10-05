@@ -23,6 +23,9 @@ body{
   color: $P-color;
   font-size: 17px;
 }
+.Dash{
+  color: $Button-Color;
+}
 .Text_box1{
   font-size: 25px;
 }
@@ -88,3 +91,156 @@ div#Sub{
     }
 }
 /*--------------------/sub_Header----------------------*/
+/*-----------------------Sub2-------------------------*/
+div.Box1{
+  position: relative;
+  top: 240px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  h1.Mrg{
+    position: absolute;
+    margin:  0;
+    bottom: 10px;
+  }
+  button.btn{
+    background-color: $Button-Color;
+    color: white;
+    position: absolute;
+    right:  0;
+    bottom: 10px;
+}  }
+/*-----------------------/Sub2-------------------------*/
+/*------------------------Main------------------------*/
+ div.Pic {
+   position: relative;
+   top: 240px;
+   .con, .con1, .con2, .con3, .con4, .con5, .con6, .con7, .con8 {
+     display: inline-block;
+     position: relative;
+   }
+   img {
+     width: 367px;
+     height: 367px;
+     display: inline-block;
+     padding-top: 10px;
+   }
+   img.Pading {
+     padding: 10px 10px 0 10px;
+   }
+   .overlay1{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: rgb(135, 135, 135);
+   background: linear-gradient(140deg, rgba(135, 135, 135, 1) 0%, rgba(23, 23, 23, 1) 100%) no-repeat;
+   overflow: hidden;
+   width: 367px;
+   height: 0;
+   transition: .5s ease;
+     .Circle {
+     position: relative;
+     border: 5px solid white;
+     border-radius: 50%;
+     margin: auto;
+     width: 210px;
+     height: 210px;
+       .Img2 {
+       position: absolute;
+       margin-left: -5px;
+       margin-top: -5px;
+       padding: 10px;
+     }
+       .Plus {
+       display: inline-block;
+       position: relative;
+       background-color: #87DCC9;
+       border-radius: 50%;
+       width: 50px;
+       height: 50px;
+       margin-top: 70px;
+       margin-left: 180px;
+         i.fa {
+         margin-left: 13px;
+         margin-top: 12px;
+         font-size: 30px;
+       }
+     }
+   }
+   .text {
+     color: white;
+     font-size: 23px;
+     position: absolute;
+     top: 235px;
+     left: 50%;
+     display: inline-block;
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     text-align: center;
+   }
+     .Address {
+       position: absolute;
+       color: #87DCC9;
+       font-size: 20px;
+       margin-left: 110px;
+       margin-top: 50px;
+       opacity: 0.5;
+       text-decoration: none;
+     }
+   .Butn {
+     position: absolute;
+     margin-top: 80px;
+     width: 250px;
+     height: 60px;
+     margin-left: 60Px;
+
+     .Butn-Hover-L, .Butn-Hover-R {
+       position: relative;
+       border: 3px solid white;
+       width: 125px;
+       height: 60px;
+       background-color: transparent;
+       color: white;
+     }
+
+     .Butn-Hover-L {
+       float: left;
+     }
+
+     .Butn-Hover-R {
+       border-left: none;
+       float: right;
+     }
+   }
+ }
+   .con:hover .overlay1 {
+     height: 97.5%;
+   }
+   .con1:hover .overlay1 {
+     height: 97.5%;
+   }
+   .con2:hover .overlay1 {
+     height: 97.5%;
+   }
+   .con3:hover .overlay1 {
+     height: 97.5%;
+   }
+   .con4:hover .overlay1 {
+     height: 97.5%;
+   }
+   .con5:hover .overlay1 {
+     height: 97.5%;
+   }
+   .con6:hover .overlay1 {
+     height: 97.5%;
+   }
+   .con7:hover .overlay1 {
+     height: 97.5%;
+   }
+   .con8:hover .overlay1 {
+     height: 97.5%;
+   }}
+/*------------------------/Main------------------------*/
