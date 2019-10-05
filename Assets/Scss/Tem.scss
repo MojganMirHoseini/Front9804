@@ -47,7 +47,7 @@ header div.container {
         font-size: 13px;
         font-weight: bolder;
         a:hover {
-          color: var(--Hover);
+          color: $Hover;
           text-decoration: none;
     }}
         div.but{
@@ -67,5 +67,24 @@ header div.container {
   }
        } }
   }
-
 /*--------------------/Header--------------------------*/
+/*--------------------sub_Header----------------------*/
+div#Sub{
+  background-color: $Sub-Header;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  margin-top: 40px;
+  h1,h6{
+    margin-left: 60px;
+  }
+    h1#Text{
+      font-size: 40px;
+      margin-top: 50px;
+      color: $H-Color;
+  }
+    h6.Text_M{
+      margin-top: 20px;
+    }
+}
+/*--------------------/sub_Header----------------------*/

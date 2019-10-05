@@ -45,7 +45,7 @@ header div.container nav ul li a {
   font-weight: bolder;
 }
 header div.container nav ul li a a:hover {
-  color: var(--Hover);
+  color: #88D7C6;
   text-decoration: none;
 }
 header div.container nav ul li div.but {
@@ -65,5 +65,26 @@ header div.container nav ul li div.but i.fa {
 }
 
 /*--------------------/Header--------------------------*/
+/*--------------------sub_Header----------------------*/
+div#Sub {
+  background-color: #F1F4F5;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  margin-top: 40px;
+}
+div#Sub h1, div#Sub h6 {
+  margin-left: 60px;
+}
+div#Sub h1#Text {
+  font-size: 40px;
+  margin-top: 50px;
+  color: #4D4D4D;
+}
+div#Sub h6.Text_M {
+  margin-top: 20px;
+}
+
+/*--------------------/sub_Header----------------------*/
 
 /*# sourceMappingURL=Tem.css.map */
