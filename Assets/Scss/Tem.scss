@@ -9,10 +9,10 @@
   $Weight: 1500px;
 body{
   background-color: $Main;
-  font-family: "Calibri";
 }
 .container{
   width: $Weight;
+  font-family: "Arial Narrow";
   margin: auto;
 }
 .clearfix{
@@ -23,12 +23,8 @@ body{
   color: $P-color;
   font-size: 17px;
 }
-.Dash{
-  color: $Button-Color;
-}
-.Text_box1{
-  font-size: 25px;
-}
+.Dash{color: $Button-Color;}
+.Text_box1{font-size: 20px;}
 /*--------------------/Variables-----------------------*/
 /*--------------------Header--------------------------*/
 
@@ -37,13 +33,16 @@ header div.container {
     float: left;
     padding-top: 45px;
   }
-  nav{
-      float: right;
-      text-align: right;
-      padding-top: 45px;
-    ul li{
+
+  nav {
+    float: right;
+    text-align: right;
+    padding-top: 45px;
+
+    ul li {
       display: inline-block;
-      a{
+
+      a {
         text-decoration: none;
         padding: 25px;
         color: black;
@@ -52,24 +51,28 @@ header div.container {
         a:hover {
           color: $Hover;
           text-decoration: none;
-    }}
-        div.but{
-          background-color: $Button-Color;
-          position: relative;
-          width: 30px;
-          height: 30px;
-          margin-bottom: -8px;
-          float: right;
-          i.fa{
-            color: $Main;
-            font-size: 10px;
-            top: 5px;
-            right: 10px;
-            position: relative;
         }
+      }
+
+      div.but {
+        background-color: $Button-Color;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        margin-bottom: -8px;
+        float: right;
+
+        i.fa {
+          color: $Main;
+          font-size: 10px;
+          top: 6px;
+          right: 10px;
+          position: relative;
+        }
+      }
+    }
   }
-       } }
-  }
+}
 /*--------------------/Header--------------------------*/
 /*--------------------sub_Header----------------------*/
 div#Sub{
@@ -85,10 +88,10 @@ div#Sub{
       font-size: 40px;
       margin-top: 50px;
       color: $H-Color;
+      font-family: "Advent Pro";
   }
-    h6.Text_M{
-      margin-top: 20px;
-    }
+    h6.Text_M{margin-top: 20px;}
+    font-family: "Arial Narrow";
 }
 /*--------------------/sub_Header----------------------*/
 /*-----------------------Sub2-------------------------*/
@@ -126,9 +129,7 @@ div.Box1{
      display: inline-block;
      padding-top: 10px;
    }
-   img.Pading {
-     padding: 10px 10px 0 10px;
-   }
+   img.Pading {padding: 10px 10px 0 10px;}
    .overlay1{
    position: absolute;
    bottom: 0;
@@ -196,7 +197,6 @@ div.Box1{
      width: 250px;
      height: 60px;
      margin-left: 60Px;
-
      .Butn-Hover-L, .Butn-Hover-R {
        position: relative;
        border: 3px solid white;
@@ -205,42 +205,162 @@ div.Box1{
        background-color: transparent;
        color: white;
      }
-
-     .Butn-Hover-L {
-       float: left;
-     }
-
+     .Butn-Hover-L {float: left;}
      .Butn-Hover-R {
        border-left: none;
        float: right;
      }
    }
  }
-   .con:hover .overlay1 {
-     height: 97.5%;
-   }
-   .con1:hover .overlay1 {
-     height: 97.5%;
-   }
-   .con2:hover .overlay1 {
-     height: 97.5%;
-   }
-   .con3:hover .overlay1 {
-     height: 97.5%;
-   }
-   .con4:hover .overlay1 {
-     height: 97.5%;
-   }
-   .con5:hover .overlay1 {
-     height: 97.5%;
-   }
-   .con6:hover .overlay1 {
-     height: 97.5%;
-   }
-   .con7:hover .overlay1 {
-     height: 97.5%;
-   }
-   .con8:hover .overlay1 {
-     height: 97.5%;
-   }}
+   .con:hover .overlay1 {height: 97.5%;}
+   .con1:hover .overlay1 {height: 97.5%;}
+   .con2:hover .overlay1 {height: 97.5%;}
+   .con3:hover .overlay1 {height: 97.5%;}
+   .con4:hover .overlay1 {height: 97.5%;}
+   .con5:hover .overlay1 {height: 97.5%;}
+   .con6:hover .overlay1 {height: 97.5%;}
+   .con7:hover .overlay1 {height: 97.5%;}
+   .con8:hover .overlay1 {height: 97.5%;}
+ }
 /*------------------------/Main------------------------*/
+/*------------------------Sub-Main--------------------*/
+div.Sub_Main_T{
+  position: relative;
+  text-align: center;
+  margin-top: 300px;
+  h1{
+    position: absolute;
+    padding-left: 380px;
+    font-size: 20px;
+  }
+  button{
+    background-color: $Button-Color;
+    width: 120px;
+    height: 35px;
+    border: none;
+    color: $Main;
+    margin-top: 40px;
+    margin-right: 44px;
+    a{
+      color: $Main;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  span{font-size: 12px;}
+}
+div.Sub_Main_B{
+  position: relative;
+  margin-top: 50px;
+  h1{margin-left: 0;}
+  h6{padding-top: 40px;}
+}
+/*------------------------/Sub-Main--------------------*/
+/*-------------------------social---------------------*/
+div.Social{
+  position: relative;
+  margin-top: 50px;
+
+  ul li{display: inline-block;
+    img{
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      margin-left: 90px;
+    }
+    h1{
+      margin-top: 20px;
+      margin-left: 100px;
+    }
+    h6{
+      margin-top: 20px;
+      margin-left: 30px;
+      text-align: center;
+    }
+  }
+}
+div.Tp{
+  margin-top: 80px;
+  .Top-F{
+    margin: 0;
+    padding-bottom: 30px;
+  }
+}
+
+div.Top-L-Footer{
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  float: left;
+  margin-left: -2px;
+  .L1{
+    position: relative;
+    float: left;
+  }
+  .L2{
+    position: relative;
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+  }
+}
+div.Top-R-Footer{
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  float: right;
+  .R1{
+    display: inline-block;
+    float: left;
+  }
+  .R2{
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+  }
+}
+.Common-LR{color: #D3D3D3 ;}
+.MC{margin-top: 42px;}
+/*------------------------/Social--------------------*/
+/*-------------------------FOOTER--------------------*/
+.Footer{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 130px;
+  background-color: $Footer;
+  text-align: center;
+  height: 200px;
+  p{
+    margin-bottom: 20px;
+    margin-top: 80px;
+    i.fa{font-size: 14px;}
+  }
+  div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: auto;
+    display: inline-block;
+    color: white;
+    i.fa{
+      margin: auto;
+      padding-top: 7px;
+    }
+  }
+  .Feed{background-color: #FBAA56;}
+  .Face-Book{background-color: #667EB7;}
+  .Tumblr{background-color: #6CC1EB;}
+  .Dribbble{background-color: #E498C3;}
+  .Pin{background-color: #DA535B;}
+  h1 a i.fa{
+    margin-right: 1100px;
+    font-size: 50px;
+  }
+}
+/* Add a hover effect */
+.fa:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+/*-------------------------FOOTER--------------------*/
