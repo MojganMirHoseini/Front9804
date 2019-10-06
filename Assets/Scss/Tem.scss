@@ -48,7 +48,7 @@ header div.container {
         color: black;
         font-size: 13px;
         font-weight: bolder;
-        a:hover {
+        &:hover {
           color: $Hover;
           text-decoration: none;
         }
