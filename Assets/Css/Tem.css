@@ -48,7 +48,7 @@ header div.container nav ul li a {
   font-size: 13px;
   font-weight: bolder;
 }
-header div.container nav ul li a a:hover {
+header div.container nav ul li a:hover {
   color: #88D7C6;
   text-decoration: none;
 }
@@ -77,9 +77,6 @@ div#Sub {
   position: absolute;
   margin-top: 40px;
   font-family: "Arial Narrow";
-}
-div#Sub h1, div#Sub h6 {
-  margin-left: 60px;
 }
 div#Sub h1#Text {
   font-size: 40px;
