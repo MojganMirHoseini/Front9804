@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  width: 1500px;
+  width: 1129px;
   font-family: "Arial Narrow";
   margin: auto;
 }
@@ -260,7 +260,7 @@ div.Sub_Main_T button {
   height: 35px;
   border: none;
   color: #ffff;
-  margin-top: 40px;
+  margin-top: 60px;
   margin-right: 44px;
 }
 div.Sub_Main_T button a {
@@ -275,9 +275,6 @@ div.Sub_Main_T span {
 div.Sub_Main_B {
   position: relative;
   margin-top: 50px;
-}
-div.Sub_Main_B h1 {
-  margin-left: 0;
 }
 div.Sub_Main_B h6 {
   padding-top: 40px;
@@ -296,15 +293,15 @@ div.Social ul li img {
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  margin-left: 90px;
+  margin-left: 70px;
 }
 div.Social ul li h1 {
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 80px;
 }
 div.Social ul li h6 {
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 15px;
   text-align: center;
 }
 
